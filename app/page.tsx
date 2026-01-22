@@ -1,6 +1,7 @@
 'use client';
 
 import { Shield, Lock, CheckCircle2 } from 'lucide-react';
+import Logo from './logo.svg';
 import { useState } from 'react';
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
           {/* Logo/Brand */}
           <div className="space-y-2">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-800/50 border border-slate-700/50 backdrop-blur-sm mb-6">
-              <Shield className="w-8 h-8 text-slate-300" strokeWidth={1.5} />
+              <Logo className="w-12 h-12" />
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-slate-100">
               Arkatos
