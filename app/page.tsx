@@ -29,7 +29,7 @@ export default function Home() {
 
           {/* Overline */}
           <div className="mb-2">
-            <span className="text-xs tracking-widest text-emerald-400 uppercase font-semibold">INSTITUTIONAL ACCESS ONLY</span>
+            <span className="text-xs tracking-widest text-emerald-400 uppercase font-semibold">PROFESSIONAL FIRM ACCESS ONLY</span>
           </div>
           {/* Main headline */}
           <div className="space-y-6">
@@ -88,18 +88,18 @@ export default function Home() {
                   onChange={(e) => setEmail(e.target.value)}
                   required
                   placeholder="institutional@firm.com"
-                  className="flex-1 px-5 py-4 bg-transparent border border-white/10 rounded-lg text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:border-transparent backdrop-blur-xl transition-all shadow-inner"
+                  className="flex-1 px-3 py-2 bg-transparent border border-white/10 rounded-lg text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 focus:border-transparent backdrop-blur-xl transition-all shadow-inner text-base"
                 />
                 <button
                   type="submit"
-                  className="px-8 py-4 bg-gradient-to-r from-emerald-400 to-cyan-400 text-white font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 shadow-lg hover:scale-[1.02]"
-                  style={{ boxShadow: '0 4px 24px 0 rgba(52, 211, 153, 0.15)' }}
+                  className="px-5 py-2 bg-gradient-to-r from-emerald-400 to-cyan-400 text-white font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-400/60 shadow-lg hover:scale-[1.02] text-base"
+                  style={{ boxShadow: '0 2px 12px 0 rgba(52, 211, 153, 0.15)' }}
                 >
                   Request Institutional Access
                 </button>
               </div>
               <p className="text-xs text-white/50 text-center sm:text-left tracking-wide">
-                Institutional investors and asset managers only.
+                For professional investment firms and asset managers of all sizes.
               </p>
             </form>
           </div>
