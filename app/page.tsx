@@ -106,7 +106,7 @@ export default function Home() {
 
           {/* Use cases */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto pt-8">
-            {/*
+            {[
               { title: 'DDQ Automation', desc: 'Process due diligence questionnaires in minutes, not weeks' },
               { title: 'Loan Tape Parsing', desc: 'Extract and validate critical data from any loan tape format' },
               { title: 'Risk Defense', desc: 'Audit-ready documentation and compliance reporting' },
@@ -123,7 +123,6 @@ export default function Home() {
 
         </div>
       </div>
-
       {/* Footer */}
       <footer className="absolute bottom-0 w-full py-6 text-center text-sm text-slate-600 border-t border-slate-800/50">
         <p>© 2026 Arkatos. All rights reserved.</p>
