@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom noise background using SVG data URI */
+.noise-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100' height='100' fill='white' fill-opacity='0.03'/%3E%3Ccircle cx='50' cy='50' r='1' fill='white' fill-opacity='0.08'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  opacity: 0.2;
+}
+
 :root {
   --background: #0f172a;
   --foreground: #f8fafc;
@@ -10,6 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: 'Inter', 'Geist', sans-serif;
   font-feature-settings: "rlig" 1, "calt" 1;
 }
 
