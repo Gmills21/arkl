@@ -37,7 +37,7 @@ export default function Home() {
               Automate <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent drop-shadow-[0_0_8px_#34d399]">Private Credit</span> Compliance.
             </h2>
             <p className="text-base sm:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
-              The first agentic workflow engine for parsing loan tapes and answering LP diligence. SOC2 Ready.
+              Automate DDQs and compliance for private credit funds. Extract structured credit data from legal documents and deal transcripts.
             </p>
           </div>
 
