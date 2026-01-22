@@ -1,11 +1,6 @@
-# Vercel Deployment Configuration
-
-# This file tells Vercel to use Next.js and enables all default settings for a Next.js app.
-# No custom build or output settings are needed for a standard Next.js project.
-
-# If you need custom builds, uncomment and edit below:
-# {
-#   "builds": [
-#     { "src": "next.config.js", "use": "@vercel/next" }
-#   ]
-# }
+{
+	"version": 2,
+	"builds": [
+		{ "src": "next.config.js", "use": "@vercel/next" }
+	]
+}
