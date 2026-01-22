@@ -1,0 +1,26 @@
+# .vercelignore
+# Ignore files and folders that should not be uploaded to Vercel
+# Add any files/folders here that are not needed for deployment
+
+# Node modules (Vercel installs dependencies automatically)
+node_modules
+
+# Local build output
+.next
+out
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files (set these in Vercel dashboard instead)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
